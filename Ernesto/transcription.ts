@@ -1,4 +1,4 @@
-import OpenAI from "openai";
+import OpenAI from "openai/index.js";
 import fs from "fs";
 
 export class Transcript {

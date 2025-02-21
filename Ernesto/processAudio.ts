@@ -1,6 +1,6 @@
 // processAudio.ts
-import OpenAI from "openai";
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai/index.js";
+import Anthropic from "@anthropic-ai/sdk/index.js";
 import { FileHandler } from "./fileHandler";
 import { Transcript } from "./transcription";
 
