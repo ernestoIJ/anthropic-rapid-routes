@@ -1,0 +1,51 @@
+Test Case,File Name,Expected Output,Actual Output,Result
+1,common_voice_en_41383256.mp3,,,PASSED
+2,common_voice_en_41823983.mp3,"For purposes of this definition, the intent may be conditional.","For the purposes of this definition, the intent may be conditional.",FAILED
+3,common_voice_en_41881685.mp3,"Bennett was educated at Lawnswood High School, Leeds, and Hertford College, Oxford.","Bennett was educated at Lawnswood High School, Leeds and Hertford College, Oxford.",FAILED
+4,common_voice_en_41799514.mp3,These rules became known as Admiral-Lord Mountevans rules.,"These lulz became the wharfs at Mirrorwood, Mt. Tibbins, Lulz",FAILED
+5,common_voice_en_41552032.mp3,,,PASSED
+6,common_voice_en_41827319.mp3,"The track ""Coca Leaf"" is made up of vocal samples of singing women.",The track Coca Leaf is made up of vocal samples of singing women.,FAILED
+7,common_voice_en_41526838.mp3,,,PASSED
+8,common_voice_en_41435787.mp3,"Most ""Naruto"" video games have been released only in Japan.",Most Naruto video games have been released only in Japan.,FAILED
+9,common_voice_en_41633128.mp3,,,PASSED
+10,common_voice_en_41586424.mp3,"At South Side, Greer was an all state selection in both football and track.","At Southside, Greer was an all-state selection in both football and track.",FAILED
+11,common_voice_en_41489529.mp3,,,PASSED
+12,common_voice_en_41469700.mp3,,,PASSED
+13,common_voice_en_41517336.mp3,,,PASSED
+14,common_voice_en_41423014.mp3,,,PASSED
+15,common_voice_en_41518962.mp3,,,PASSED
+16,common_voice_en_41592181.mp3,,,PASSED
+17,common_voice_en_41532689.mp3,,,PASSED
+18,common_voice_en_41503591.mp3,After this the town was rebuilt and simply referred to as 'Wells'.,"After this, the town was rebuilt and simply referred to as Wells.",FAILED
+19,common_voice_en_41816931.mp3,,,PASSED
+20,common_voice_en_41267069.mp3,"In Korea, carnations express admiration, love and gratitude.","Kwa Korea, kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",FAILED
+21,common_voice_en_41659267.mp3,Naval Academy in Annapolis.,Navaal Academy in Annapolis.,FAILED
+22,common_voice_en_41629760.mp3,"It also likes flower nectar, fruit and some seeds.","It also likes flower, nectar, fruit and some seeds.",FAILED
+23,common_voice_en_41674821.mp3,"After graduation he served with the royal Prussian geological institute, making photographic surveys.","After graduation, he served with the Royal Prussian Geological Institute, making photographic surveys.",FAILED
+24,common_voice_en_41577054.mp3,,,PASSED
+25,common_voice_en_41583225.mp3,,,PASSED
+26,common_voice_en_41662681.mp3,,,PASSED
+27,common_voice_en_41486401.mp3,,,PASSED
+28,common_voice_en_41503529.mp3,,,PASSED
+29,common_voice_en_41678018.mp3,,,PASSED
+30,common_voice_en_41548292.mp3,,,PASSED
+31,common_voice_en_41680077.mp3,"Considered a ""Shining Star"" of the Core Worlds.",Considered a shining star of the core worlds,FAILED
+32,common_voice_en_41798570.mp3,,,PASSED
+33,common_voice_en_41295264.mp3,,,PASSED
+34,common_voice_en_41645566.mp3,,,PASSED
+35,common_voice_en_41284140.mp3,"In Lao, represents a doubled word.",In Lao represents a doubled word.,FAILED
+36,common_voice_en_41550758.mp3,Many of the illustrations he created for the magazine depict characters seen the film.,Many of the illustrations he created for the magazine depict the characters in the film.,FAILED
+37,common_voice_en_41543184.mp3,You just didn't bother saying 'this sucks' anymore.,"Sinä en kuitenkaan tarvitse sanoa, että tämä pahtaa enää.",FAILED
+38,common_voice_en_41693119.mp3,"Its headquarters are in the town of Damaturu, the State capital.","Its headquarters are in the town of Demetru, the state capital.",FAILED
+39,common_voice_en_41796793.mp3,This is a hard one because I don't really believe in god,これは難しいです。神に信じていないからです。,FAILED
+40,common_voice_en_41798305.mp3,The rank has a rather confusing history.,ランクの歴史はかなり混乱しています。,FAILED
+41,common_voice_en_41731588.mp3,,,PASSED
+42,common_voice_en_41735538.mp3,Holmes versus Cooney was refereed by Mills Lane.,Holmes vs. Cooney was refereed by Mills Lane.,FAILED
+43,common_voice_en_41307772.mp3,,,PASSED
+44,common_voice_en_41307806.mp3,,,PASSED
+45,common_voice_en_41547685.mp3,,,PASSED
+46,common_voice_en_41547689.mp3,,,PASSED
+47,common_voice_en_41587501.mp3,A mosque is situated inside Sitio Bolangan on the outskirts of the city.,A mosque is situated inside Sitio Polongan on the outskirts of the city.,FAILED
+48,common_voice_en_41654965.mp3,,,PASSED
+49,common_voice_en_41684833.mp3,"A similar example is Charlotte Perkins Gilman's story ""The Yellow Wallpaper"".","A similar example is Charlotte Perkins Gilman's story, The Yellow Wallpaper.",FAILED
+50,common_voice_en_41685590.mp3,The establishment was commanded by an officer of the rank of Lieutenant Commander.,The establishment was commanded by an officer of the rank of a lieutenant commander.,FAILED
