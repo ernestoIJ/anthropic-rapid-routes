@@ -1,20 +1,33 @@
-import * as dotenv from 'dotenv';
-dotenv.config();
+import fs from 'fs';
+import path from 'path';
+import OpenAI from 'openai';
 
-import fs from "fs";
-import path from "path";
-import OpenAI from "openai";
+export class SpeechGenerator {
+  private openai: OpenAI;
 
-const apiKey = process.env.OPENAI_API_KEY!;
-const openai = new OpenAI({ apiKey });
-const speechFile = path.resolve("./speech.mp3");
+  constructor(apiKey: string) {
+    this.openai = new OpenAI({ apiKey });
+  }
 
-const mp3 = await openai.audio.speech.create({
-  model: "gpt-4o-mini-tts",
-  voice: "coral",
-  input: "Today is a wonderful day to build something people love!",
-  instructions: "Speak in a cheerful and positive tone.",
-});
+  async generateSpeech(
+    input: string,
+    instructions: string,
+    speechFilePath: string
+  ): Promise<void> {
 
-const buffer = Buffer.from(await mp3.arrayBuffer());
-await fs.promises.writeFile(speechFile, buffer);
+    const model = "gpt-4o-mini-tts";
+    const voice = "coral";
+
+    const mp3 = await this.openai.audio.speech.create({
+      model,
+      voice,
+      input,
+      instructions,
+    });
+
+    const buffer = Buffer.from(await mp3.arrayBuffer());
+    const resolvedPath = path.resolve(speechFilePath);
+    await fs.promises.writeFile(resolvedPath, buffer);
+    console.log(`Speech file written to ${resolvedPath}`);
+  }
+}
